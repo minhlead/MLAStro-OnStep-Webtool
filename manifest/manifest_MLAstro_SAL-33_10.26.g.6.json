@@ -1,0 +1,10 @@
+{
+  "name": "MLAstro SAL-33",
+  "version": "10.26.g.6",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [{ "path": "firmware/MLAstro_SAL-33_10.26.g.6.bin", "offset": 0 }]
+    }
+  ]
+}
