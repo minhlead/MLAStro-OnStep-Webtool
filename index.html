@@ -83,7 +83,7 @@
       $('.radios_shc2').hide();
       $('.radios_fysetc').hide();
       $('.radios_gda').hide();
-      
+      $('.radios_mla').hide();
       $('#type').change(function(){
 
           $("input[type=radio][name=type]").prop('checked', false);
@@ -114,6 +114,11 @@
           } else {
               $('.radios_gda').hide(); 
           } 
+                  if($('#type').val() == 'MLAStro Images') {
+              $('.radios_mla').show(); 
+          } else {
+              $('.radios_mla').hide(); 
+          } 
 
       });
     });
@@ -137,7 +142,13 @@
         <option>SHC2+</option>
         <option>FYSETC E4</option>
         <option>GDA Images</option>
+        <option>MLAStro Images</option>
       </select>
+            <ul class="radios_mla">
+        <li>
+          <label><input type="radio" name="type" id="radios" value="MLAstro_SAL-33_10.26.g.6" /> MLAstro_SAL-33 10.26.g.6</label>
+        </li>
+      </ul>
       <ul class="radios_sws">
         <li>
           <label><input type="radio" name="type" id="radios" value="sws_wifi_2.06.h" /> SWS WiFi (2.06.h Both ESP32 and ESP8266)</label>
