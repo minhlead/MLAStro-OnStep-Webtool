@@ -4,8 +4,9 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "parts": [{ "path": "https://test.mlastro.com/firmware/MLAstro_SAL-33_10.26.k.6.bin", "offset": 0 }]
+      "parts": [{ "path": "https://minhlead.github.io/MLAStro-OnStep-Webtool/MLAstro_SAL-33_10.26.k.6.bin", "offset": 0 }]
     }
   ]
 }
+
 
