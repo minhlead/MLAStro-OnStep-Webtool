@@ -4,7 +4,8 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "parts": [{ "path": "firmware/MLAstro_SAL-33_10.26.k.6.bin", "offset": 0 }]
+      "parts": [{ "path": "https://test.mlastro.com/firmware/MLAstro_SAL-33_10.26.k.6.bin", "offset": 0 }]
     }
   ]
 }
+
